@@ -10,13 +10,13 @@
 - 最大连接数限制
 - 异步非阻塞IO
 
+## 依赖
+Boost 1.66+
+CMake 3.10+
+
 ## 构建运行
 ```bash
 mkdir build && cd build
 cmake ..
 make
 ./firewall
-
-## 依赖
-Boost 1.66+
-CMake 3.10+
